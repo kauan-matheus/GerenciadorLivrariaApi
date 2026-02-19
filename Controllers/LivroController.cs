@@ -7,7 +7,6 @@ namespace GerenciadorLivraria.Controllers;
 [Route("api/books")]
 public class LivroController : ControllerBase
 {
-
     //to criando a lista de livros para simular um banco de dados, deixando static para manter os dados
     private static readonly List<Livro> livros = new();
 
